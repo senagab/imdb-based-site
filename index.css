@@ -42,3 +42,15 @@ background-color:#666;
 color:white;
 border-color: #666;
 }
+
+a.btn.btn-warning.my-2:hover{
+  color:#fff;
+  background-color:#ffc100;
+  border-color:#ffc100 ; 
+}
+
+a.btn.btn-dark.my-2:hover{
+  color:#fff;
+  background-color:#1d2124;
+  border-color:#1d2124 ; 
+}
