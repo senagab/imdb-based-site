@@ -65,8 +65,14 @@
         </div>
       </section>
 
+      
+
       <div class="album bg-light">
         <div class="container">
+
+        <p>
+          <a href="dashboard.html" class="btn btn-dark my-2">Ir para Filmes</a>
+        </p>  
 
          <table class="table table-dark">
             <thead>
@@ -75,7 +81,7 @@
                 <th scope="col">Filme</th>
                 <th scope="col">Diretor</th>
                 <th scope="col">Rating</th>
-                <th scope="col"><img style="right: 0;" src="https://png.icons8.com/metro/20/e74c3c/cancel.png" data-toggle="tooltip" data-placement="top" title="dispensar"></th>
+                <th scope="col">Dispensar</th>
               </tr>
             </thead>
             <tbody>
@@ -85,7 +91,7 @@
                 <td>David Fincher</td>
                 <td><img class="mr-sm-2" src="https://png.icons8.com/material-rounded/18/f1c40f/christmas-star.png">8.8/10</td>
                 <td>
-                  <input class="input-group-text bg-dark" type="checkbox" >
+                  <button type="button "class="btn btn-danger"><img src="https://png.icons8.com/metro/18/ffffff/cancel.png"></button>
                 </td>
               </tr>
               <tr>
@@ -94,7 +100,8 @@
                 <td>Tom Hooper</td>
                 <td><img class="mr-sm-2" src="https://png.icons8.com/material-rounded/18/f1c40f/christmas-star.png">9.5/10</span></td>
                 <td>
-                  <input class="input-group-text bg-dark" type="checkbox" >
+                  <button type="button "class="btn btn-danger">
+                    <img src="https://png.icons8.com/metro/18/ffffff/cancel.png"></button>
                 </td>
               </tr>
               <tr>
@@ -103,13 +110,37 @@
                 <td>Tony Kaye</td>
                 <td><img class="mr-sm-2" src="https://png.icons8.com/material-rounded/18/f1c40f/christmas-star.png">9.1/10</td>
                 <td>
-                  <input class="input-group-text bg-dark" type="checkbox" >
+                  <button type="button "class="btn btn-danger"><img src="https://png.icons8.com/metro/18/ffffff/cancel.png"></button>
                 </td>
               </tr>
             </tbody>
           </table>
         </div>
       </div>
+
+
+    <!-- --------------------------- Modal --------------------------- -->
+
+
+    <div class="modal fade" id="dismiss" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            ...
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     </main>
 

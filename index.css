@@ -43,6 +43,10 @@ color:white;
 border-color: #666;
 }
 
+button.btn.btn-danger{
+  margin-left:10%;
+}
+
 a.btn.btn-warning.my-2:hover{
   color:#fff;
   background-color:#ffc100;
